@@ -1,4 +1,6 @@
+@"
 node_modules/
+**/node_modules/
 dist/
 build/
 .env
@@ -7,3 +9,5 @@ build/
 *.log
 coverage/
 server/data/*.csv
+*.backup
+"@ | Set-Content .gitignore
